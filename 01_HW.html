@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(☞ﾟヮﾟ)☞_HW_☜(ﾟヮﾟ☜)</title>
+</head>
+<style>
+    submit      {
+        background-color: rgb(200, 81, 115);
+            padding: 7px 13px;
+            color: bisque;
+            font-size: 10px;
+            border-radius: 10px;
+    }
+
+    form        {
+        background-color: cornsilk;
+    }
+</style>
+<body>
+    <form action="/action_page.php">
+    <!--Color-->
+    <h2>Your Favourite Color</h2>
+        <label for="favcolor">Select your Favourite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <input type="submit" value="Submit">
+        <br><br>
+    
+    <!--Date-->   
+    <h2>Date Field</h2>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+        <br><br>
+
+    <!--Date_Time_Local--> 
+    <h2>Local Date Field</h2>  
+        <label for="birthdaytime">Birthday (date and time)</label> 
+        <input type="datetime-local" id="bithdaytime" name="birthdaytime">
+        <input type="submit" value="Submit">
+        <br><br>
+
+    <!--File-->
+    <h2>File upload</h2>
+        <label for="myfile">Select your Web File:</label>  
+        <input type="file" id="myfile" name="myfile"> 
+        <input type="submit" value="Submit">
+        <br><br>
+
+    <!--Image--> 
+    <h2>Display an Image as the Subit button</h2>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"> 
+        <br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <input type="image" src="Img/download.jpg" alt="Submit" width="55" height="48">
+        <br><br> 
+        
+    <!--Month-->  
+    <h2>Month Field</h2> 
+        <label for="bdaymonth">Birthday (month and year)</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+        <input type="submit" value="Submit">
+        <br><br>
+
+    <!--Number-->
+    <h2>Number Field</h2>
+        <label for="quantity">Quantity (between 1 and 7) :</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="7">
+        <input type="submit" value="Submit">
+        <br><br>
+
+    <!--Range-->
+    <h2>Range Field</h2>
+        <label for="vol">Volume ( between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"> 
+        <input type="submit" value="Submit">
+        <br><br>
+        
+    <!--Search-->
+    <h2>Search Field</h2>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+        <input type="submit" value="Submit"> 
+        <br><br>  
+        
+    <!--Tel-->
+    <h2>Telephone Field</h2>
+        <label for="phone">Enter a phone number:</label>
+        <br><br>
+        <input type="tel" id="phone" name="phone" placeholder="09-12345-6789" pattern="[09]-[0-9]{9}" required>
+        <br><br>
+        <small>Format: 09-12345-6789</small> 
+        <br><br>  
+        <input type="submit" value="Submit"> 
+    </form>
+</body>
+</html>

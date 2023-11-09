@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Col and PRow Span</title>
+    <style>
+        table, th, td   {
+            border: 2px solid black;
+            background-color: rgb(224, 238, 238);
+            border-collapse:collapse ;
+        }
+
+        table       {
+            width: 50%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        tr:hover    {
+            background-color: rgb(10, 3, 38); 
+            font-size: 20px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--colspan-->
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Livia</td>
+            <td>Westim</td>
+            <td>28</td> 
+        </tr>
+        <tr>
+            <td>Mila</td>
+            <td>Westim</td>
+            <td>28</td>
+        </tr>
+    </table>
+    <!--rowspan-->
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Rockie</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>09-375018653</td>
+        </tr>
+        <tr>
+            <td>09-436362197</td>
+        </tr>
+    </table>
+</body>
+</html>

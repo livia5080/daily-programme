@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <style>
+      table     {
+        margin: auto;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+   <form>
+    <fieldset>
+        <table>
+     <tr><td><h1>Please Choose A Payment Method</h1></td></tr>
+    <tr><td></td></tr><h2>Personal Info</h2> 
+    <tr><td><label for="fullname">Full Name</label></td></tr>
+    <tr><td> <input type="text" id="fullname" name="full-name" placeholder="Full-Name"></td></tr>
+    <tr><td><label for="email">Email</label></td></tr>
+    <tr><td><input type="email" id="email" name="email" placeholder="Enter Email"></td></tr>
+    <br>
+    <tr><td><h2>Choose a payment method</h2></td></tr>
+
+    <tr><td><input type="radio" id="citizenpay" name="method" value="citizenpay">
+        <label for="citizenpay"><img src="Img/citizenpay.jpg" alt="citizenpay" width="70px" height="70px"></label>
+        <input type="radio" id="okdollar" name="method" value="okdollar">
+        <label for="okdollar"><img src="Img/okdollar.jpg" alt="okdollar" width="70px" height="70px"></label>
+        <input type="radio" id="truemoney" name="method" value="truemoney">
+        <label for="truemoney"><img src="Img/truemoney.png" width="70px" height="70ppx"></label>
+        <input type="radio" id="wavemoney" name="method" value="wavemoney">
+        <label for="wavemoney"><img src="Img/wavemoney.jpg" width="70px" height="70px"></label></td></tr>
+    <br>
+    <Label for="credit">Credit card number</Label>
+    <input type="text" id="credit" name="credit" placeholder="123-xxx-xxx" pattern="{0-9}-{a-z}-{a-z}">
+    <label for="password">Password</label>
+    <input type="text" id="password" name="password" placeholder="Password">
+    <Label for="valid">Valid Until</Label>
+    <tr><td><select id="valid" name="valid">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select></td></tr>
+    <tr><td><input type="text" placeholder="Year"></td></tr> 
+    <br>
+    <tr><td><button type="reset">Cancel</button>
+    <button type="submit">Submit</button></td></tr>
+</table>
+    </fieldset>
+    </form> 
+</body>
+</html>
