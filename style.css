@@ -1,0 +1,62 @@
+body    {
+    background-color: rgb(216, 182, 169);
+}
+
+nav {
+    background-color: rgb(201, 115, 201);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(29, 3, 17) ;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.img-box img  {
+    width: 250px;
+    height: 250px;
+    padding: 2.5%;
+    border-radius: 75px;
+}
+
+.img-box    {
+    text-align: center;
+}
+
+.container      {
+    margin:0 30px;
+}
+
+.menu       {
+    background-color: rgb(201, 115, 201);
+    padding: 0 10px;
+    
+}
+
+/*Fotter*/
+
+footer  {
+    background-color: rgb(201, 115, 201);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nav-link a  {
+    color: rgb(29, 3, 17) ;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 15px;
+}
+
+.icon .bi       {
+    color: rgb(216, 182, 169);
+    font-size: 37px;
+    margin: 0 20px;
+    
+}
+
+
